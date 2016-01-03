@@ -8,8 +8,7 @@ Regras do Fizzbuzz
 """
 
 
-def multiple_of(base, num):
-    return num % base == 0
+multiple_of = lambda base, num: num % base == 0
 
 
 def multiple_of_5(num):
